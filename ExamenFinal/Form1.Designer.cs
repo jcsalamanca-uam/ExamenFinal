@@ -41,21 +41,22 @@
             this.button2 = new System.Windows.Forms.Button();
             this.BtnActualizar = new System.Windows.Forms.Button();
             this.TbEliminarID = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DGVReporte_)).BeginInit();
             this.SuspendLayout();
             // 
             // TbID
             // 
-            this.TbID.Location = new System.Drawing.Point(109, 48);
+            this.TbID.Location = new System.Drawing.Point(85, 12);
             this.TbID.Name = "TbID";
-            this.TbID.Size = new System.Drawing.Size(100, 22);
+            this.TbID.Size = new System.Drawing.Size(124, 22);
             this.TbID.TabIndex = 0;
             this.TbID.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(264, 51);
+            this.label1.Location = new System.Drawing.Point(264, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(20, 16);
             this.label1.TabIndex = 1;
@@ -64,7 +65,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(264, 100);
+            this.label2.Location = new System.Drawing.Point(264, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 16);
             this.label2.TabIndex = 2;
@@ -73,7 +74,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(264, 144);
+            this.label3.Location = new System.Drawing.Point(264, 108);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 16);
             this.label3.TabIndex = 3;
@@ -82,7 +83,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(264, 201);
+            this.label4.Location = new System.Drawing.Point(264, 165);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 16);
             this.label4.TabIndex = 4;
@@ -90,24 +91,24 @@
             // 
             // TbNombre
             // 
-            this.TbNombre.Location = new System.Drawing.Point(109, 94);
+            this.TbNombre.Location = new System.Drawing.Point(85, 58);
             this.TbNombre.Name = "TbNombre";
-            this.TbNombre.Size = new System.Drawing.Size(100, 22);
+            this.TbNombre.Size = new System.Drawing.Size(124, 22);
             this.TbNombre.TabIndex = 5;
             this.TbNombre.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // TbCantidad
             // 
-            this.TbCantidad.Location = new System.Drawing.Point(109, 201);
+            this.TbCantidad.Location = new System.Drawing.Point(85, 165);
             this.TbCantidad.Name = "TbCantidad";
-            this.TbCantidad.Size = new System.Drawing.Size(100, 22);
+            this.TbCantidad.Size = new System.Drawing.Size(124, 22);
             this.TbCantidad.TabIndex = 6;
             // 
             // TbPrecio
             // 
-            this.TbPrecio.Location = new System.Drawing.Point(109, 144);
+            this.TbPrecio.Location = new System.Drawing.Point(85, 108);
             this.TbPrecio.Name = "TbPrecio";
-            this.TbPrecio.Size = new System.Drawing.Size(100, 22);
+            this.TbPrecio.Size = new System.Drawing.Size(124, 22);
             this.TbPrecio.TabIndex = 7;
             // 
             // DGVReporte_
@@ -117,14 +118,14 @@
             this.DGVReporte_.Name = "DGVReporte_";
             this.DGVReporte_.RowHeadersWidth = 51;
             this.DGVReporte_.RowTemplate.Height = 24;
-            this.DGVReporte_.Size = new System.Drawing.Size(587, 214);
+            this.DGVReporte_.Size = new System.Drawing.Size(789, 214);
             this.DGVReporte_.TabIndex = 8;
             // 
             // BtnAgregar
             // 
-            this.BtnAgregar.Location = new System.Drawing.Point(656, 38);
+            this.BtnAgregar.Location = new System.Drawing.Point(764, 38);
             this.BtnAgregar.Name = "BtnAgregar";
-            this.BtnAgregar.Size = new System.Drawing.Size(84, 29);
+            this.BtnAgregar.Size = new System.Drawing.Size(110, 29);
             this.BtnAgregar.TabIndex = 9;
             this.BtnAgregar.Text = "Agregar";
             this.BtnAgregar.UseVisualStyleBackColor = true;
@@ -132,9 +133,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(656, 93);
+            this.button2.Location = new System.Drawing.Point(764, 93);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(110, 26);
             this.button2.TabIndex = 10;
             this.button2.Text = "Eliminar";
             this.button2.UseVisualStyleBackColor = true;
@@ -142,9 +143,9 @@
             // 
             // BtnActualizar
             // 
-            this.BtnActualizar.Location = new System.Drawing.Point(656, 137);
+            this.BtnActualizar.Location = new System.Drawing.Point(764, 137);
             this.BtnActualizar.Name = "BtnActualizar";
-            this.BtnActualizar.Size = new System.Drawing.Size(75, 23);
+            this.BtnActualizar.Size = new System.Drawing.Size(110, 23);
             this.BtnActualizar.TabIndex = 11;
             this.BtnActualizar.Text = "Actualizar";
             this.BtnActualizar.UseVisualStyleBackColor = true;
@@ -152,16 +153,26 @@
             // 
             // TbEliminarID
             // 
-            this.TbEliminarID.Location = new System.Drawing.Point(520, 93);
+            this.TbEliminarID.Location = new System.Drawing.Point(645, 97);
             this.TbEliminarID.Name = "TbEliminarID";
             this.TbEliminarID.Size = new System.Drawing.Size(100, 22);
             this.TbEliminarID.TabIndex = 12;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(404, 100);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(220, 16);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Introduzca ID de producto a eliminar";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(923, 450);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.TbEliminarID);
             this.Controls.Add(this.BtnActualizar);
             this.Controls.Add(this.button2);
@@ -199,6 +210,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button BtnActualizar;
         private System.Windows.Forms.TextBox TbEliminarID;
+        private System.Windows.Forms.Label label5;
     }
 }
 
